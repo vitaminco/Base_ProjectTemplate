@@ -16,6 +16,7 @@ namespace App.Data
 		public DbSet<AppRolePermission> AppRolePermissions { get; set; }
 		public DbSet<AppUser> AppUsers { get; set; }
 		public DbSet<MstPermission> MstPermissions { get; set; }
+		public DbSet<AppCategory> AppCategories { get; set; }
 
 		public WebAppDbContext(DbContextOptions options) : base(options)
 		{
