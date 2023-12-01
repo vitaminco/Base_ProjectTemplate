@@ -20,8 +20,7 @@ namespace App.Data.Configurations
             builder.HasKey(m => m.Id);
             // Tên đăng nhập là varchar, bắt buộc & không trùng lặp
             builder.Property(m => m.Name)
-                .HasMaxLength(DB.AppCategory.NAME)
-                .IsUnicode(false)   // varchar (không chứa unicode)
+                .HasMaxLength(DB.AppCategory.NAME_LENGTH)
                 .IsRequired();
         }
     }
