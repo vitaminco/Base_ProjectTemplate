@@ -29,6 +29,14 @@ namespace App.Share.Consts
 			public const int DELETE						= 1105;
 		}
 
+		public static class AppCategory
+		{
+            public const int VIEW_DETAIL			   = 1201;
+            public const int CREATE					   = 1202;
+            public const int UPDATE					   = 1203;
+            public const int DELETE					   = 1204;
+        }
+
 		public static class FileManager
 		{
 			public const int MANAGE_ALL_USER_FILES		= 1205;

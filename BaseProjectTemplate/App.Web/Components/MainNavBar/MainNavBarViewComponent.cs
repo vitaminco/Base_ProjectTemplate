@@ -45,6 +45,12 @@ namespace App.Web.Components.MainNavBar
 					Controller = "FileManager",
 					DisplayText = "Quản lý tệp",
 					Icon = "fa-folder-open",
+				},new MenuItem
+				{
+					Action = "Index",
+					Controller = "Category",
+					DisplayText = "Quản danh mục",
+					Icon = "fa-folder",
 				},
 				//new MenuItem
 				//{
